@@ -9,7 +9,7 @@ void triangle(int n) {
 }
 int main() {
     int n;
-    scanf("%d ", &n);
+    scanf("%d", &n);
     triangle(n);
     return 0;
 }
