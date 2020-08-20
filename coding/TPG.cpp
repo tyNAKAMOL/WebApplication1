@@ -13,7 +13,7 @@ int main() {
     char num[100];
     int a = 0, k = 2, i;
     int* prt = &a;
-    printf("Enter number : ");
+    printf("Enter number (Only positive) : ");
     scanf("%s", num);
     if (strNum(num) == 1) {
         for (i = 0; i < strlen(num); i++) {
