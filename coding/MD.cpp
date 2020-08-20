@@ -34,7 +34,7 @@ int main() {
     }
 
     printf("\nXbar = %.2lf", Xbar);
-    printf("\n|SigmaX-Xbar| = %.2lf", sum2);
+    printf("\nSigms|SigmaX-Xbar| = %.2lf", sum2);
     printf("\nN = 5");
     printf("\nM.D = %.2lf", sum2 / 5);
 
