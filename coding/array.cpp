@@ -11,7 +11,7 @@ int  main() {
         scanf("%d", &arr1[i]);
     }
     for (i = 0; i < n; i++) {
-        if (arr1[i] % 2 == 0) {
+        if (arr1[i] % 2 == 0 && arr1[i]>= 0) {
             arr2[j] = arr1[i];
             j++;
         }
